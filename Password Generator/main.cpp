@@ -21,6 +21,8 @@ int main()
 
 	cout << "PASSWORD GENERATOR" << endl;
 
+	cout << "Press 'Enter' to start." << endl;
+
 	auto password = new char[PASSWORD_CHARACTER_LENGHT];
 
 	GenerateRandomPassword(password);
